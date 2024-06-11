@@ -1,8 +1,10 @@
-### Algorithm
+# Algorithm
 
-Input: An integer array a and an integer d representing the number if left rotations.
-
-Normalize Rotations: Since rotating an array by its length results in the same array, we use d = d % n
-where n is the length of the array
-
-Rotate the Array: We sliced the array into two parts and concatenate the second part followed by the first part
+### step 1
+Declare the array
+### step 2
+Set number of shifts 'd'
+### step 3
+we used the arraycopy function to copy the content of a subarray of a length 'a' from a given source array to another array called the  rotatedArr
+### step 4 
+print out rotated array (rotatedArr)
